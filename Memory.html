@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Om sidan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Start</a></li>
+      <li><a href="om.html">Om</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+  <div class="controls">
+    <label for="pairCount">Antal bilder:</label>
+    <select id="pairCount"></select>
+  
+    <label for="category">Kategori:</label>
+    <select id="category">
+      <option value="sota-djur">Söta djur</option>
+      <option value="rymden">Rymden</option>
+      <option value="mat">Mat</option>
+    </select>
+  
+    <button id="startGame">Starta memory</button>
+  </div>
+
+<div class="grid-wrapper">
+<div class="grid-container" id="gameBoard"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

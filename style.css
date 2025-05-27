@@ -13,34 +13,37 @@ body {
   }
   
   .navbar {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px 20px;
-    position: sticky;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* svart med 75% opacitet */
+    position: fixed;   /* Så den alltid ligger överst */
     top: 0;
+    left: 0;
     z-index: 1000;
+    padding: 15px 0;
   }
   
   .navbar ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
   }
   
   .navbar li a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s ease;
+    transition: color 0.3s;
   }
   
   .navbar li a:hover {
     color: #00f2a9;
   }
   
+
   .grid-wrapper {
     display: flex;
     justify-content: center;
