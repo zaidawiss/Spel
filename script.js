@@ -6,7 +6,8 @@ const imagePools = {
       "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "https://images-bonnier.imgix.net/files/ill/production/Hvorfor-har-jeg-trang-til-at-skade-nuttede-ting.jpg?auto=format,compress&fit=crop&w=500&q=80",
       "https://blogspace.c.nu/storage/blog-media/1276/5676414339_79a2ca09d3_z.jpg",
-      "https://static3.devote.se/gallery/big/20120627/78959c06b107e9182f4a3ece8caf5446.jpg"
+      "https://static3.devote.se/gallery/big/20120627/78959c06b107e9182f4a3ece8caf5446.jpg",
+      "https://images.fyndiq.se/images/f_auto/t_600x600/prod/53b577bfd0784c37/9973bbb10145/diy-materialkit-for-sjalvtillverkat-sott-djur"
     ],
     "rymden": [
       "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
@@ -102,4 +103,4 @@ const imagePools = {
       board.appendChild(card);
     });
   });
-  
+
