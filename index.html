@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memoryspel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="intro">
+    <h1>Idag är det kallt</h1>
+    <p>Här kommer all text som jag inte vet vart annars ska.</p>
+    <h2>...trots att det är sommar</h2>
+    <p>Här kommer några bilder:</p>
+    <div class="grid-container static-grid">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </section>
+
+
+
+  
+  <h1>Nu blir det memory!</h1>
+    <div class="controls">
+        <label for="pairCount">Antal bilder:</label>
+        <select id="pairCount"></select>
+      
+        <label for="category">Kategori:</label>
+        <select id="category">
+          <option value="sota-djur">Söta djur</option>
+          <option value="rymden">Rymden</option>
+          <option value="mat">Mat</option>
+        </select>
+      
+        <button id="startGame">Starta memory</button>
+      </div>
+  
+  <div class="grid-wrapper">
+    <div class="grid-container" id="gameBoard"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
