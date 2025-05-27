@@ -12,6 +12,35 @@ body {
     min-height: 100vh;
   }
   
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar li a:hover {
+    color: #00f2a9;
+  }
+  
   .grid-wrapper {
     display: flex;
     justify-content: center;
