@@ -11,7 +11,8 @@ body {
     align-items: center;
     min-height: 100vh;
   }
-  //Navigationsfältet
+ 
+**Navigationsfältet**
 
   .navbar {
     background-color: rgba(0, 0, 0, 0.75);
@@ -70,8 +71,8 @@ body {
   }
 
 
-  ///Memory grid
-  
+
+  **Memory**
 
   .grid-wrapper {
     display: flex;
